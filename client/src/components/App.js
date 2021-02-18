@@ -10,6 +10,7 @@ import TopBar from "./layout/TopBar";
 import CragIndex from './CragIndex'
 import CragClimbsIndex from './CragClimbsIndex'
 import ClimbPage from './ClimbPage'
+import LandingPage from './LandingPage'
 
 const App = (props) => {
   const [currentUser, setCurrentUser] = useState(undefined);
