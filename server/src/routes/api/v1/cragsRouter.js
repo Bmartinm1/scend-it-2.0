@@ -28,6 +28,6 @@ cragsRouter.get('/:id', async (req, res) => {
   }
 })
 
-cragsRouter.use('/:cragId/climbs', newClimbRouter)
+//cragsRouter.use('/:cragId/climbs', newClimbRouter)
 
 export default cragsRouter

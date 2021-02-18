@@ -5,7 +5,7 @@ import config from "../../config";
 const RegistrationForm = () => {
   const [userPayload, setUserPayload] = useState({
     email: "",
-    name "",
+    name: "",
     password: "",
     passwordConfirmation: "",
   });

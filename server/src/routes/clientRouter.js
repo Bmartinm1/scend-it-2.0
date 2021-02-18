@@ -8,7 +8,10 @@ const clientRoutes = [
   "/user-sessions/new", 
   "/users/new", 
   '/crags', 
-  'crags/:id'];
+  '/crags/:id',
+  '/climbs',
+  '/climbs/:id'
+];
 router.get(clientRoutes, (req, res) => {
   res.sendFile(getClientIndexPath());
 });
