@@ -6,39 +6,57 @@ class CragSeeder {
     const cragsData = [
       {
         name: 'Hammond Pond',
-        state: 'MA'
+        state: 'MA',
+        longitude: '',
+        latitude: ''
       },
       {
         name: 'Farley Ledge',
-        state: 'MA'
+        state: 'MA',
+        longitude: '',
+        latitude: ''
       },
       {
         name: 'Rock House Reservation',
-        state: 'MA'
+        state: 'MA',
+        longitude: '',
+        latitude: ''
       },
       {
         name: 'Cathedral Ledge',
-        state: 'NH'
+        state: 'NH',
+        longitude: '',
+        latitude: ''
       },
       {
         name: 'Pawtuckaway',
-        state: 'NH'
+        state: 'NH',
+        longitude: '',
+        latitude: ''
       },
       {
         name: 'Rumney',
-        state: 'NH'
+        state: 'NH',
+        longitude: '',
+        latitude: ''
       },
       {
         name: 'Lincoln Woods',
-        state: 'RI'
+        state: 'RI',
+        longitude: '',
+        latitude: ''
       },
       {
         name: 'Rocky Point',
-        state: 'RI'
+        state: 'RI',
+        longitude: '',
+        latitude: ''
       },
       {
         name: 'Rome Point',
-        state: 'RI'
+        state: 'RI',
+        longitude: '',
+        latitude: ''
       }
     ]
 

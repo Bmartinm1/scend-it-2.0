@@ -8,7 +8,7 @@ import RegistrationForm from "./registration/RegistrationForm";
 import SignInForm from "./authentication/SignInForm";
 import TopBar from "./layout/TopBar";
 import CragIndex from './CragIndex'
-import CragClimbsIndex from './CragClimbsIndex'
+import CragPage from './CragPage'
 import ClimbPage from './ClimbPage'
 
 const App = (props) => {
@@ -32,7 +32,7 @@ const App = (props) => {
         <Route exact path="/users/new" component={RegistrationForm} />
         <Route exact path="/user-sessions/new" component={SignInForm} />
         <Route exact path="/crags" component={CragIndex} />
-        <Route exact path="/crags/:id" component={CragClimbsIndex} />
+        <Route exact path="/crags/:id" component={CragPage} />
         <Route exact path="/climbs/:id" component={ClimbPage} />
       </Switch>
     </Router>

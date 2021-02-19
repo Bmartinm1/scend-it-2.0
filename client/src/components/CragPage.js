@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import ClimbTile from './ClimbTile.js'
 
-const CragShowPage = props => {
+const CragPage = props => {
   const [crag, setCrag] = useState({
     id: '',
     name: '',
@@ -61,5 +61,5 @@ const CragShowPage = props => {
   )
 }
 
-export default CragShowPage
+export default CragPage
 

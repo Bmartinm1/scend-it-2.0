@@ -8,10 +8,12 @@ class Crag extends Model {
   static get jsonSchema () {
     return {
       type: 'object',
-      required: ['name', 'state'],
+      required: ['name', 'state', 'longitude', 'latitude'],
       properties: {
         name: { type: 'string' },
-        state: { type: 'string' }
+        state: { type: 'string' },
+        longitude: { type: 'decimal' },
+        latitude: { type: 'decimal' }
       }
     }
   }

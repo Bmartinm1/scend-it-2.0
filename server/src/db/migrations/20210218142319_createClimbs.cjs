@@ -7,20 +7,20 @@
  */
 exports.up = async (knex) =>
   knex.schema.createTable('climbs', (table) => {
-    table.bigIncrements('id'),
+    table.bigIncrements('id')
     table.string('name')
       .notNullable()
-      .unique(),
+      .unique()
     table.string('grade')
-      .notNullable(),
+      .notNullable()
     table.string('gradeMod')
-    table.string('dangerRating'),
-    table.string('firstAscent'),
-    table.text('beta'),
-    table.text('notes'),
+    table.string('dangerRating')
+    table.string('firstAscent')
+    table.text('beta')
+    table.text('notes')
     table.text('safety')
     table.string('climbType')
-      .notNullable(),
+      .notNullable()
     table.bigInteger('cragId')
       .notNullable()
       .unsigned()
@@ -28,7 +28,7 @@ exports.up = async (knex) =>
       .references('crags.id')
     table.timestamp('createdAt')  
       .notNullable()
-      .defaultTo(knex.fn.now()),
+      .defaultTo(knex.fn.now())
     table.timestamp('updatedAt')
       .notNullable()
       .defaultTo(knex.fn.now())
