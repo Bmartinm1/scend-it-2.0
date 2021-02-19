@@ -13,6 +13,7 @@ class CragSerializer {
   static async getDetails(crag) {
     const serializedCrag = this.getSummary(crag)
     serializedCrag.climbs = await crag.$relatedQuery('climbs')
+    
     return serializedCrag
   }
 }
