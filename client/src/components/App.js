@@ -11,6 +11,7 @@ import CragIndex from './CragIndex'
 import CragClimbsIndex from './CragClimbsIndex'
 import ClimbPage from './ClimbPage'
 import LandingPage from './LandingPage'
+import AboutPage from './AboutPage'
 
 const App = (props) => {
   const [currentUser, setCurrentUser] = useState(undefined);
@@ -33,6 +34,7 @@ const App = (props) => {
         <Route exact path="/crags" component={CragIndex} />
         <Route exact path="/crags/:id" component={CragClimbsIndex} />
         <Route exact path="/climbs/:id" component={ClimbPage} />
+        <Route exact path="/about" component={AboutPage} />
       </Switch>
     </Router>
   );
